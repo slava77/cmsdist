@@ -1,8 +1,8 @@
-### RPM external valgrind 3.13.0
+### RPM external valgrind 3.13.0-bigNS
 ## INITENV SET VALGRIND_LIB %{i}/lib/valgrind
-%define tag 32da88e7dbcdc49253dfe921e0ebdebf91497d04
+%define tag e5027bc7b88ecd00ac66dda741df2dd2c56c3aa8
 %define branch v%{realversion}
-%define github_user cms-externals
+%define github_user slava77
 Source: git+https://github.com/%{github_user}/%{n}.git?obj=%{branch}/%{tag}&export=%{n}-%{realversion}&output=/%{n}-%{realversion}.tgz
 
 BuildRequires: autotools
