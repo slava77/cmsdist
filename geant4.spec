@@ -34,7 +34,7 @@ cmake ../%{n}.%{realversion} \
   -DCMAKE_CXX_FLAGS="-fPIC" \
   -DCMAKE_INSTALL_PREFIX:PATH="%i" \
   -DCMAKE_INSTALL_LIBDIR="lib" \
-  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_BUILD_TYPE=RelWithDebInfo \
   -DGEANT4_USE_GDML=ON \
   -DGEANT4_BUILD_CXXSTD:STRING="c++14" \
   -DGEANT4_BUILD_TLS_MODEL:STRING="global-dynamic" \

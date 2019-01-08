@@ -21,7 +21,7 @@ cd ../build
 cmake ../%{n}-%{realversion} \
   -DCMAKE_INSTALL_PREFIX=%{i} \
   -DROOT=OFF \
-  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_BUILD_TYPE=RelWithDebInfo \
   -DNO_SPECIALIZATION=ON \
   -DBACKEND=Scalar \
   -DUSOLIDS=ON \
