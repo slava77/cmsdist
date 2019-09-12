@@ -1,5 +1,5 @@
 ### RPM external mkfit 2.0.1
-%define tag e2f53f27ad3c39249c224cb809c6b69d9e694e62
+%define tag 3adee27b06757600a05dbb6b9df1517ad0fa8f5e
 %define branch V2.0.1-0+pr241-dbg
 %define github_user slava77
 
